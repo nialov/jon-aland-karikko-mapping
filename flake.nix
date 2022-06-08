@@ -41,6 +41,7 @@
             pastel
             nixFlakes
             poetry-wrapped
+            rclone
           ];
 
           # Required for building C extensions

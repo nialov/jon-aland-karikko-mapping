@@ -6,8 +6,8 @@ authors = ["nialov <nikolasovaskainen@hotmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.10.0"
-kapalo-py = {path = "../../Pipenv_projects/kapalo-py"}
 invoke = "^1.6.0"
+kapalo-py = {git = "https://github.com/nialov/kapalo-py.git"}
 
 [tool.poetry.dev-dependencies]
 

@@ -1,3 +1,5 @@
 data
 .direnv
 .envrc
+exports
+*.zip
