@@ -1,0 +1,3 @@
+[submodule "kapalo-py"]
+	path = kapalo-py
+	url = git@github.com:nialov/kapalo-py

@@ -184,8 +184,8 @@ version = "0.0.0.post148.dev0+5cfcf6e"
 description = "Kapalo data extraction and processing"
 category = "main"
 optional = false
-python-versions = ">=3.8,<3.10.0"
-develop = false
+python-versions = ">=3.9,<3.10.0"
+develop = true
 
 [package.dependencies]
 folium = "^0.12.1"
@@ -205,10 +205,8 @@ lint = ["pylint", "rstcheck", "sphinx", "markupsafe (==2.0.1)"]
 typecheck = ["mypy"]
 
 [package.source]
-type = "git"
-url = "https://github.com/nialov/kapalo-py.git"
-reference = "master"
-resolved_reference = "2a1a06f2e6fc72128b1e8519e8edbf04828a8746"
+type = "directory"
+url = "kapalo-py"
 
 [[package]]
 name = "markdown"
@@ -506,8 +504,8 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 
 [metadata]
 lock-version = "1.1"
-python-versions = ">=3.8,<3.10.0"
-content-hash = "70920f0289cb2d35537bda97c6921d3d0400db702159d609d065bee0e6781260"
+python-versions = ">=3.9,<3.10.0"
+content-hash = "8621aab91087767b97179fcced96b3b135c952a570aebd068899e6b83c3294ab"
 
 [metadata.files]
 attrs = [
