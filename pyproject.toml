@@ -10,6 +10,7 @@ kapalo-py = {path = "./kapalo-py", develop = true}
 invoke = "^1.6.0"
 
 [tool.poetry.dev-dependencies]
+ipython = "^8.4.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
